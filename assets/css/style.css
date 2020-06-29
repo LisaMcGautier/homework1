@@ -1,13 +1,16 @@
+/* Applies to the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the background color for the entire page. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Creates the look of the logo within the header. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +27,7 @@ h1 {
     color: #d9dcd6;
 }
 
+/* Creates the look of the links within the header. */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,6 +50,7 @@ a {
     text-decoration: none;
 }
 
+/* Defines parameters and appearance of the image (figure) at the center of the page. */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,12 +60,14 @@ a {
     background-position: center;
 }
 
+/* Sets the appearance of the main portion of the page: the services offered by the company. */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Consolidates the attributes of the three sections within the main portion of the page. */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
@@ -88,6 +95,7 @@ main {
     color: #ffffff;
 } */
 
+/* Consolidates the similarties in the appearance of the images in the three sections of the main portion of the page. */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  {
     max-height: 200px;
 }
@@ -100,6 +108,7 @@ main {
     max-height: 200px;
 } */
 
+/* Consolidates similarities in the headers of the three sections of the main portion. */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -115,20 +124,24 @@ main {
     font-size: 36px;
 } */
 
+/* Applies to all paragraph tags on the page. */
 p {
     font-size: 16px;
 }
 
+/* Two of three images "float left" of the paragraph content in the sections of the main portion of the page. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Only one image "floats right" of the paragraph content in the sections of the main portion of the page. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Applies to the appearance of the aside tag on the right side of the page. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -140,6 +153,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Consolidates the characteristics of the three classes within the aside. */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -155,6 +169,7 @@ p {
     color: #ffffff; 
 }*/
 
+/* Consolidates the charcteristics of the headers for the three sections of the aside. */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -170,6 +185,7 @@ p {
     text-align: center;
 } */
 
+/* Consolidates the attributes of the images (logos) within the aside. */
 .benefit-lead img, .benefit-brand img, .benefit-cost img  {
     display: block;
     margin: 10px auto;
@@ -187,6 +203,7 @@ p {
     max-width: 150px;
 } */
 
+/* Defines the appearance of the footer at the bottom of the page. */
 .footer {
     padding: 30px;
     clear: both;
